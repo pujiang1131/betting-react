@@ -1,0 +1,608 @@
+.App {
+  text-align: center;
+  
+}
+#root {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+span {
+  text-decoration: solid;
+}
+
+
+.root {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./assets/download.webp);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: #090909;
+  padding: 5px;
+}
+
+.logo {
+  display: flex;
+  width: 160px;
+  height: 53px;
+  padding: 10px 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 555px;
+  width: 408px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #fe6201;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #000000;
+  padding: 30px 0px 0px 0px;
+}
+
+.small-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  height: 100%;
+}
+
+.back-part {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  height: 32px;
+
+}
+
+.back-icon-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: max-content;
+}
+
+.backicon {
+  width: 20px;
+  color: white;
+  font-weight: 500;
+  margin-top: 3px;
+}
+
+.back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+
+.signup {
+  display: flex;
+  width: 100%;
+  height: 43.2px;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 61.9px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  padding: 0px 0px 18px 0px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.username-input,
+.password-input {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 6px;
+}
+
+.username,
+.password {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  font-size: 14px;
+  color: white;
+}
+
+.input-username,
+.input-password {
+  display: flex;
+  max-width: 100%;
+  padding: 16px;
+  font-size: 12px !important;
+  background-color: #eaeef3;
+  border: 1px solid #eaeef3;
+  border-radius: 6px;
+}
+
+.phonenumber-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 90%;
+  height: 96px;
+  padding: 5px;
+}
+
+.phonenumber-part {
+  display: flex;
+  width: 75%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.phonenumber-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 6px;
+}
+
+.phonenumber {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  font-size: 14px;
+  color: white;
+}
+
+.otp-btn {
+  display: flex;
+  width: 57px;
+  background-color: #7f3101;
+  color: #000000;
+  height: 44px;
+  border-radius: 10px;
+  border: 1px solid #808080;
+  text-transform: capitalize;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.6px;
+  text-align: center;
+}
+
+.signin-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 49px;
+  font-size: 13px;
+  color: white;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 38.5px;
+  border: 1px solid #808080;
+  background-color: #7f3101;
+  color: #000000;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  text-decoration: none;
+
+}
+
+.footer {
+  display: flex;
+  width: 410px;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  margin-top: 50px;
+}
+
+.privacy {
+  display: flex;
+  width: 410px;
+  justify-content: space-evenly;
+  font-size: 12px;
+  color: #fe6201;
+}
+
+.input-phonenumber-wrapper {
+  max-width: 100%;
+}
+
+.input-phonenumber {
+  display: flex;
+  width: 100% !important;
+  height: 48px!important;
+  /* padding: 16px !important; */
+  font-size: 12px !important;
+  background-color: #eaeef3 !important;
+  border: 1px solid #eaeef3 !important;
+  border-radius: 6px !important;
+  /* color: black !important; */
+}
+
+.input-phonenumber-button {
+  background-color: #eaeef3 !important;
+  border: none !important;
+  border-radius: 6px 0 0 6px !important;
+}
+
+.input-phonenumber-container {
+  width: 100% !important;
+}
+
+/* Modal styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(3px);
+}
+
+.modal-content {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  border: 1px solid #fe6201;
+  animation: modalFadeIn 0.3s ease-out;
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border-bottom: 1px solid #333;
+}
+
+.modal-header h2 {
+  margin: 0;
+  color: #fe6201;
+  font-size: 20px;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.close-button:hover {
+  color: white;
+}
+
+.modal-body {
+  padding: 30px 20px;
+  text-align: center;
+  color: white;
+}
+
+.success-icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 20px;
+  background-color: #fe6201;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  color: white;
+}
+
+.modal-body p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #f1f1f1;
+}
+
+.redirect-text {
+  margin-top: 15px !important;
+  color: #fe6201 !important;
+  font-size: 14px !important;
+  font-style: italic;
+}
+
+.modal-btn {
+  margin-top: 25px;
+  padding: 12px 30px;
+  background-color: #fe6201;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.modal-btn:hover {
+  background-color: #ff7b2e;
+}
+
+/* FairPlay Simulation Styles */
+.fairplay-simulation {
+  background-color: #121212;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+
+.fairplay-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #333;
+}
+
+.fairplay-logo {
+  color: #fe6201;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.fairplay-nav {
+  display: flex;
+  gap: 25px;
+  width: 100%;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.fairplay-nav span {
+  font-size: 16px;
+  cursor: pointer;
+  color: #ccc;
+  padding: 5px 0;
+  position: relative;
+}
+
+.fairplay-nav span.active {
+  color: #fe6201;
+}
+
+.fairplay-nav span.active::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fe6201;
+}
+
+.fairplay-nav span:hover {
+  color: #fe6201;
+}
+
+.fairplay-banner {
+  width: 100%;
+  height: 200px;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://via.placeholder.com/1200x400');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.banner-content {
+  text-align: center;
+}
+
+.banner-content h2 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.banner-content p {
+  font-size: 18px;
+  color: #ccc;
+}
+
+.fairplay-content {
+  width: 90%;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.content-section {
+  margin-bottom: 40px;
+}
+
+.content-section h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+  border-left: 4px solid #fe6201;
+  padding-left: 10px;
+}
+
+.sports-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.sport-item {
+  background-color: #2a2a2a;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.sport-item:hover {
+  background-color: #3a3a3a;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Bookmarklet instructions */
+.bookmarklet-instructions {
+  max-width: 500px;
+}
+
+.instruction-steps {
+  text-align: left;
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+.instruction-steps li {
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.bookmarklet-link {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #fe6201;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+
+.note {
+  font-style: italic;
+  font-size: 14px !important;
+  color: #aaa !important;
+  margin-top: 15px !important;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.modal-btn.secondary {
+  background-color: #333;
+}
+
+.modal-btn.secondary:hover {
+  background-color: #444;
+}
+
+/* Fairplay iframe styles */
+.fairplay-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.fairplay-iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
